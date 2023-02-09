@@ -2,7 +2,7 @@ const Asena = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 
-const Language = require('../language');
+const Language = require;
 const Lang = Language.getString('wallpaper');
 
 Asena.addCommand({pattern: 'owner', fromMe: false, desc: "Gives github link of the bot"}, (async (message, match) => {
